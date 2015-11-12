@@ -1,0 +1,22 @@
+﻿Build started 10/1/2015 3:39:15 PM.
+     1>Project "C:\Users\fiyyan.p\Documents\Visual Studio 2015\Projects\CGI\ControlLED\ControlLED.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\fiyyan.p\Documents\Visual Studio 2015\Projects\CGI\dependencies\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ControlLED1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\fiyyan.p\Documents\Visual Studio 2015\Projects\CGI\dependencies\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ControlLED1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dependencies\include\Serial.cpp ControlLED.cpp
+         ControlLED.cpp
+     1>c:\users\fiyyan.p\documents\visual studio 2015\projects\cgi\controlled\controlled.cpp(2): warning C4603: 'STRICT' : macro is not defined or definition is different after precompiled header use
+                 Add macro to precompiled header instead of defining here
+                 c:\users\fiyyan.p\documents\visual studio 2015\projects\cgi\controlled\controlled.cpp(3) : use of precompiled header
+     1>c:\users\fiyyan.p\documents\visual studio 2015\projects\cgi\controlled\controlled.cpp(30): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : see declaration of 'getenv'
+         Serial.cpp
+     1>c:\users\fiyyan.p\documents\visual studio 2015\projects\cgi\dependencies\include\serial.cpp(23): warning C4603: 'STRICT' : macro is not defined or definition is different after precompiled header use
+                 Add macro to precompiled header instead of defining here
+                 c:\users\fiyyan.p\documents\visual studio 2015\projects\cgi\dependencies\include\serial.cpp(24) : use of precompiled header
+         Generating Code...
+     1>Done Building Project "C:\Users\fiyyan.p\Documents\Visual Studio 2015\Projects\CGI\ControlLED\ControlLED.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.74
